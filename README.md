@@ -22,20 +22,17 @@ for functional programming and writting proofs in Coq. It comes with:
 The username is `xumonad` with no password.
 
 # Create ISO
-XUMonad is packaged with the Pinguy-builder found here, maintained by `u/PinGUY`.
-https://sourceforge.net/projects/pinguy-os/files/ISO_Builder/
+XUMonad is packaged with the Pinguy-builder from PinguyOS.
 
 First, setup an xubuntu system from the official Xubuntu live CD with xmonad the way you like it.
-Then, copy ~/.xmonad and everything else in the user's home into `/etc/skel`.
+Then, copy `~/.xmonad` and everything else in the user's home into `/etc/skel`.
 The `start-xmonad.sh` script is in `/usr/local/bin` invoked at boot from `/usr/share/xsession/xmonad.desktop`.
 Finally, call `PinguyBuilder-gtk` as superuser and use the Gtk UI to create a `dist` iso file in `/home/PinguyBuilder`.
 
 ## Burn ISO
 Burn ISO to DVD or USB stick with `unetbootin`.
 
-# Lincense
+# License
 
 MIT License, I have no obligation towards users.
-
-# Author
-Lef Ioannidis <elefthei (at) mit.edu>
+Lef Ioannidis, elefthei (at) mit.edu
