@@ -3,8 +3,7 @@ A minimal xubuntu and xmonad based linux distro and live CD based on xubuntu 18.
 
 # Introduction
 XUMonad is based on Xubuntu, Xfce and XMonad. A base xubuntu installation is used, with xfce4 as the panel, xmonad as the window
-manager and nautilus as the file manager. The latest ISO based on xubuntu 18.04 bionic LTS is here:
-https://www.dropbox.com/s/zmugql8pq3itsix/xumonad-dist.iso
+manager and nautilus as the file manager. The latest ISO is based on xubuntu 18.04 bionic LTS.
 
 ## Logging-in the live CD
 The username is `xumonad` with no password.
