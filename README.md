@@ -19,7 +19,7 @@ XUMonad comes with XFCE4, xubuntu without some of the included software like lib
 for functional programming and writting proofs in Coq. It comes with:
 - XMonad
 - Haskell/GHC/Stack/Cabal
-- Emacs/Proof-general with a good .emacs
+- Emacs with a good .emacs
 - opam/Ocaml/Coq
 - IntelliJ Community edition
   + scala
