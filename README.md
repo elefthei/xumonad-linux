@@ -6,6 +6,14 @@ XUMonad is based on Xubuntu, Xfce and XMonad. A base xubuntu installation is use
 manager and nautilus as the file manager. The latest ISO based on xubuntu 18.04 bionic LTS is here:
 https://www.dropbox.com/s/zmugql8pq3itsix/xumonad-dist.iso
 
+## Logging-in the live CD
+The username is `xumonad` with no password.
+
+## Usage
+Standard xmonad hotkeys apply, although the meta-key is used instead of Alt. `Meta-p` opens the `rofi` program launcher,
+a lightweight replacement for `dmenu`. XUmonad comes with the `xfce4-panel` as a status bar, although it is customary
+to use `xmobar` I found the xfce panel easier to use, able to listen to xmonad through `ewmh` and customizable through point-and-click.
+
 ## Packages
 XUMonad comes with XFCE4, xubuntu without some of the included software like libreoffice and minesweeper. It is built
 for functional programming and writting proofs in Coq. It comes with:
@@ -17,9 +25,6 @@ for functional programming and writting proofs in Coq. It comes with:
   + scala
   + haskell
 - VIM/Vundle with a good .vimrc
-
-## Logging-in the live CD
-The username is `xumonad` with no password.
 
 # Create ISO
 XUMonad is packaged with the Pinguy-builder from PinguyOS.
@@ -34,5 +39,7 @@ Burn ISO to DVD or USB stick with `unetbootin`.
 
 # License
 
+XUMonad comes wtih non-free software.
 MIT License, I have no obligation towards users.
-Lef Ioannidis, elefthei (at) mit.edu
+
+*Lef Ioannidis, elefthei (at) mit.edu*
