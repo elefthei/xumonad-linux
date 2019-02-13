@@ -15,9 +15,8 @@ a lightweight replacement for `dmenu`. XUmonad comes with the `xfce4-panel` as a
 to use `xmobar` I found the xfce panel easier to use, able to listen to xmonad through `ewmh` and customizable through point-and-click.
 
 ## Packages
-XUMonad comes with XFCE4, xubuntu without some of the included software like libreoffice and minesweeper. It is built
-for functional programming and writting proofs in Coq. It comes with:
-- XMonad
+XUMonad comes with xubuntu, minus some software like libreoffice and minesweeper. It comes with:
+- XMonad/rofi/xfce4
 - Haskell/GHC/Stack/Cabal
 - Emacs with a good .emacs
 - opam/Ocaml/Coq
