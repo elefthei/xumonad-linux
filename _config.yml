@@ -1,5 +1,8 @@
 theme: jekyll-theme-tactile
 show_downloads: true
 github:
+  public: true
+  is_project_page: true
   zip_url: https://www.dropbox.com/s/zmugql8pq3itsix/xumonad-dist.iso
-
+  tar_url: https://www.dropbox.com/s/zmugql8pq3itsix/xumonad-dist.iso
+  repository_url: https://github.com/elefthei/xumonad-linux
