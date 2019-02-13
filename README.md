@@ -1,5 +1,5 @@
 # xumonad-linux
-A minimal xubuntu and xmonad based linux distro and live CD
+A minimal xubuntu and xmonad based linux distro and live CD based on xubuntu 18.04 LTS.
 
 # Introduction
 XUMonad is based on Xubuntu, Xfce and XMonad. A base xubuntu installation is used, with xfce4 as the panel, xmonad as the window
