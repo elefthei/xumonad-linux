@@ -19,13 +19,13 @@ XUMonad comes with xubuntu, minus some software like libreoffice and minesweeper
 - XMonad/rofi/xfce4
 - Haskell/GHC/Stack/Cabal
 - Emacs with a good .emacs
+- VIM/Vundle with a good .vimrc
 - opam/Ocaml/Coq
 - IntelliJ Community edition
   + scala
   + haskell
-- VIM/Vundle with a good .vimrc
 
-# Create ISO
+# (For me) Create ISO
 XUMonad is packaged with the Pinguy-builder from PinguyOS.
 
 First, setup an xubuntu system from the official Xubuntu live CD with xmonad the way you like it.
@@ -33,7 +33,7 @@ Then, copy `~/.xmonad` and everything else in the user's home into `/etc/skel`.
 The `start-xmonad.sh` script is in `/usr/local/bin` invoked at boot from `/usr/share/xsession/xmonad.desktop`.
 Finally, call `PinguyBuilder-gtk` as superuser and use the Gtk UI to create a `dist` iso file in `/home/PinguyBuilder`.
 
-## Burn ISO
+# (For you) Burn ISO
 Burn ISO to DVD or USB stick with `unetbootin`.
 
 # License
