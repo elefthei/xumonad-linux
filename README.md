@@ -1,6 +1,8 @@
 # xumonad-linux
 A minimal xubuntu and xmonad based linux distro and live CD based on xubuntu 18.04 LTS.
 
+![screenshot]({{ site.url }}/assets/screenshot.png)
+
 # Introduction
 XUMonad is based on Xubuntu, Xfce and XMonad. Xubuntu is the base OS, xfce4 is the panel and utilities, xmonad as the window
 manager and nautilus as the file manager. The latest ISO is based on xubuntu 18.04 bionic LTS. I write Haskell, Scala and Coq
