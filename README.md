@@ -18,6 +18,12 @@ Standard xmonad hotkeys apply, although the meta-key is used instead of Alt. `Me
 a lightweight replacement for `dmenu`. XUmonad comes with the `xfce4-panel` as a status bar, although it is customary
 to use `xmobar` I found the xfce panel easier to use, able to listen to xmonad through `ewmh` and customizable through point-and-click.
 
+## Download
+
+Download xumonad ISO here <a href="https://www.dropbox.com/s/zmugql8pq3itsix/xumonad-dist.iso" />
+https://www.dropbox.com/s/zmugql8pq3itsix/xumonad-dist.iso
+</a>
+
 # Packages
 XUMonad comes with xubuntu, minus some software like libreoffice and minesweeper. It comes with:
 - XMonad/rofi/xfce4
@@ -29,7 +35,7 @@ XUMonad comes with xubuntu, minus some software like libreoffice and minesweeper
   + scala
   + haskell
 
-## (For me) Create ISO
+## How to create your own ISO
 XUMonad is packaged with the Pinguy-builder from PinguyOS.
 
 First, setup an xubuntu system from the official Xubuntu live CD with xmonad the way you like it.
@@ -37,7 +43,7 @@ Then, copy `~/.xmonad` and everything else in the user's home into `/etc/skel`.
 The `start-xmonad.sh` script is in `/usr/local/bin` invoked at boot from `/usr/share/xsession/xmonad.desktop`.
 Finally, call `PinguyBuilder-gtk` as superuser and use the Gtk UI to create a `dist` iso file in `/home/PinguyBuilder`.
 
-## (For you) Burn ISO
+## How to Burn ISO
 Burn ISO to DVD or USB stick with `unetbootin`.
 
 # License
