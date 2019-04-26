@@ -20,9 +20,7 @@ to use `xmobar` I found the xfce panel easier to use, able to listen to xmonad t
 
 ## Download
 
-Download xumonad ISO here <a href="https://www.dropbox.com/s/zmugql8pq3itsix/xumonad-dist.iso" />
-https://www.dropbox.com/s/zmugql8pq3itsix/xumonad-dist.iso
-</a>
+Download xumonad [ISO](https://www.dropbox.com/s/zmugql8pq3itsix/xumonad-dist.iso).
 
 # Packages
 XUMonad comes with xubuntu, minus some software like libreoffice and minesweeper. It comes with:
